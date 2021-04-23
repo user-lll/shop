@@ -1,0 +1,219 @@
+ .img-list{
+     height: 250px;
+}
+ .p{
+     width: 500px;
+ }
+ .input{
+     border:0;
+     width: 60px;
+     height: 25px;
+     border-radius:40px;
+ }
+ .line{
+     height: 2px;
+    
+ }
+ .line-box{
+      position: relative;
+ }
+  
+ .line-write{
+    position: absolute;
+    left: 46%;
+    top:-15px;
+     line-height: 30px;
+     width: 100px;
+     background: #f6f6f6;
+ }
+ .eat1{
+     border:1px solid #e2e2e7;
+ }
+ .eat1 li{
+     padding: 10px;
+     width: 199px;
+     border-right:1px solid #e2e2e7;
+ }
+ 
+ .eat1-span1{
+     padding: 4px 5px;
+     border:1px solid red;
+ }
+ .wcolor{
+     color:#3e3e45;
+ }
+ .eat1-p{
+     position: relative;
+ }
+ .eat1-span2{
+     display: inline-block;
+     line-height: 19px;
+     padding-right: 4px;
+     border-radius: 5px 5px 0 0;
+  position: absolute;
+  background: #ffe3ba;
+   top:0;
+  left: 50px;
+ }
+ .tp-box{
+     overflow: hidden;
+ }
+ .tp-img{
+     transition: 1s;
+ }
+ .tp-box:hover .tp-img{
+     transform: scale(1.2)
+ }
+ .fiexd-4{
+    position: fixed;
+    top: 30px;
+    right: 120px;
+ }
+ .float-right2{
+    position: absolute;
+    top: 39px;
+    right: 120px;
+ }
+ .p-input,.dobe{
+     border: 1px solid #ccc;
+ }
+ .p-input{
+     
+    width: 105px;
+    padding: 5px 24px 5px 5px;
+    height: 12px;
+    margin-top: -1px;
+ }
+  
+  .name{
+      padding: 12px 0 0 15px;
+       
+      width: 110px;
+      
+  }
+  .category{
+      width: 975px;
+      line-height: 36px;
+  }
+  .choice{
+      width: 855px;
+      height: 100px;
+      overflow: hidden;
+    }
+
+/* 取消 */
+  .choice-span{
+      display: inline-block;
+      border:2px solid transparent;
+      margin-bottom: 8px;
+}
+  .pd2{
+      position: relative;
+      padding-right: 110px;
+  }
+  .dobe1{
+      position: absolute;
+      top:5px;
+      right: 5px;
+  }
+  .dobe{
+      display: inline-block;
+       padding: 0 5px;
+}
+.dobe1 i{
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url(../img/icon-new.6f66e0b.png)
+}
+.tc-span{
+    display: inline-block;
+    border:1px solid #aaa;
+    width: 40px;
+    line-height: 22px;
+}
+.tc-span:hover{
+    background: #3e3e45;
+    color: white;
+}
+.away{
+    height: 50px;
+    overflow: hidden;
+}
+.recent:hover,.dobe:hover{
+    color: red;
+}
+.dobe:hover,.eat2 li:hover{
+   border-color:red;
+}
+.delete{
+    display: inline-block;
+    width: 20px;
+    margin-top: -1px;
+    width: 20px;
+    line-height: 29px;
+}
+.eat2,.eat3,.eat4{
+    border:0;
+}
+.eat2 li{
+    width: 238px;
+    margin-right: 17px
+}
+.eat2 li{
+    border:2px solid transparent;
+}
+.eat2 li:last-child, .eat3 li:last-child{
+    margin-right: 0;
+}
+.eat2 li:hover{
+    height: 425px;
+}
+.eat2 li>img:hover{
+    transform: scale(0.8)
+}
+.dot a{
+    display: inline-block;
+    padding: 2px 5px;
+}
+ .dot a:hover{
+     color:white;
+     background: red;
+ }
+ .eat3 li,.eat4 li{
+     padding: 0;
+     margin-right: 25px;
+}
+.eat3 li:hover{
+    position: relative;
+    left: 10px;
+}
+.eat4 li{
+    position: relative;
+}
+.Mask{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding-top: 176px;
+    height: 188px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: 1s;
+}
+.eat4 li:hover .Mask{
+    opacity: .8;
+}
+table td{
+    width: 216px;
+    line-height: 38px;
+    text-align: center;
+    color:#616064;
+}
+ 
+.main-left{
+    top:-497px;
+    opacity: 0;
+}
+ 

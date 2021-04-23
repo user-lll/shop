@@ -1,0 +1,118 @@
+/*
+*
+    作者：张三
+    创建日期：2020-5-08 09:37:55
+    修改日期：2020-5-08 09:38:00
+    项目地址：http://www.baidu.com
+    版本号：ver 1.0
+*
+*/
+
+body{background:#fff;margin:0;padding:0;line-height:24px; font-size:14px;font-family:"Microsoft YaHei","微软雅黑",Tahoma,Arial}
+/*清空浏览器的默认样式*/
+div,p,ul,ol,li,dd,h1,h2,h3,h4,h5,h6,dt,dl,form,input,textarea,blockquote,th,td{padding:0;margin:0}
+        /*cursor鼠标光标
+        cursor:pointer 手的形状;
+               default 默认：箭头
+                text  可输入，大I
+        */
+input{outline: none}
+.wrap{margin: 0 auto;width:1519px; overflow: hidden;}
+label,.pointer {cursor:pointer}
+/* h1,h2,h3,h4,h5,h6{font-size:16px; font-weight:400} */
+.auto{margin: 0 auto}
+ul,ol{list-style:none}
+a{text-decoration:none}
+.una:hover{text-decoration: underline}
+em,i { font-style:normal}
+.th{text-decoration: line-through}
+/* a:hover{color: #e68323;} */
+/*告诉部分浏览器不要给图片添加边框*/
+img{ border:none}
+table, th, td {border-collapse: collapse;border-spacing: 0}
+/*文本处理与对齐方式*/
+.vm{vertical-align: middle}
+.tc{text-align:center}
+.tl{text-align:left} 
+.txj{text-align: justify}
+.tr{text-align:right}
+.fb{font-weight:bold}
+.linh{line-height: 30px}
+/*将超出宽度的文字截字并用省略号表示*/
+.cutFont{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+/*颜色*/
+.blue,a.blue{ color:#157ff6}
+.brown  { color:#666}
+.gray   { color:#999}
+#gray   { color:#999}
+.green  { color:#2d9b01}
+.black{color:black;}
+.orange { color:#ff6400}
+.red{ color:#f00}
+.red2{color:#e9424d}
+.white,a.white { color:#fff}
+.w2{color: #d6d6d6}
+/*字体大小*/
+.font12 { font-size:12px}
+.font13 { font-size:13px}
+.font14 { font-size:14px}
+.font15 { font-size:15px}
+.font16 { font-size:16px}
+.font18 { font-size:18px}   
+.ft20{font-size: 20px}
+/*浮动公共样式*/
+.fl{float:left}
+.fr{float:right}
+.cl{clear:both}
+/*外间距公共样式*/
+.mt5{ margin-top:5px}
+.mt10{ margin-top:10px}
+.mt50{margin-top: 50px}
+.mbt20{ margin:20px 0}
+.mt20{ margin-top:20px}
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb20{ margin-bottom:20px}
+.mb30{ margin-bottom:30px}
+.mr5{ margin-right: 5px }
+.ml5{margin-left: 5px}
+.mr10{margin-right: 10px}
+.ml50{margin-left: 50px}
+.mr150{margin-right: 150px}
+.mr230{margin-right: 230px}
+.ml10{margin-left: 10px}
+.ml20{margin-left: 20px}
+.pt10{padding-top: 10px;}
+.pt20{padding-top: 20px;}
+.pl20{padding-left: 20px;}
+.pl40{padding-left: 40px;}
+.pr20{padding-right: 20px;}
+.pl10{padding-left: 10px;}
+.pb20{ padding-bottom: 20px }
+.pb10{ padding-bottom: 10px }
+.pd{padding: 10px}
+/*清除浮动公共样式*/
+.clearfix:after{content:"\20";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+/*显示方式与定位*/
+.posir{position: relative;}
+.block{display: block;}
+.inlan{display: inline-block}
+.none{display: none;}
+/*页面布局*/
+.wt1000{ width:1000px; margin:0 auto}
+.layout{ width:100%; }
+/*背景样式*/
+.bgwhite { background-color:white;}
+.bgblack{background-color: black}
+.bgGray{background-color: #f2f2f2}
+.bgRed{ background-color: red; }
+.bgdp{background: #f8f8f8;} 
+/* 边框 */
+.bb{border-bottom: 1px solid #ece7e9}
+.bod{border:1px solid #999}
+ /* 隐藏与显示 */
+ .none{display: none}
+ .block{display: block}
+  
